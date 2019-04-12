@@ -8,3 +8,6 @@ RUN npm install -g typescript
 
 # Quicktype
 RUN npm install -g quicktype
+
+# Sass
+RUN npm_config_user=root npm install -g node-sass
